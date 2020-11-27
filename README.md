@@ -12,7 +12,7 @@ Create backups using crontab
 2. Use the ```backup_mc_gdrive.sh``` bash file, to set the rclone locations.
 3. Another ```crontab -e``` entry is made to run the script every monday/sunday night at 12.
 
-Add this line to the crontab -e
+Add this line to the sudo crontab -e
 ```0 1 * * 1 /home/fuzzyserver/backup_mc_gdrive.sh```
 
 Now it should save the world every week to gdrive
